@@ -263,7 +263,24 @@
   }
 }
 span {
-  color: #55f868;
+  color: red;
   font-size: 50px;
   font-weight: 500;
+}
+
+.cursor-blink::after {
+  content: "|";
+  animation: blink 1s steps(1) infinite;
+  margin-left: 5px;
+}
+
+@keyframes blink {
+  0%,
+  50% {
+    opacity: 1;
+  }
+  51%,
+  100% {
+    opacity: 0;
+  }
 }
