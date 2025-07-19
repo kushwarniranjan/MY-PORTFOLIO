@@ -231,17 +231,6 @@
   /* Combine typing effect and blinking cursor */
 }
 
-/* Keyframe for Typing Effect */
-@keyframes typing {
-  0% {
-    width: 0;
-  }
-
-  100% {
-    width: 100%;
-  }
-}
-
 /* Blinking Cursor Effect */
 .cursor-blink {
   display: inline-block;
